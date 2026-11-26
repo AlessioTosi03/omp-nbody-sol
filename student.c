@@ -2,6 +2,7 @@
 #include <math.h>
 #include <omp.h>
 
+
 /* Parallelize this implementation. You may add includes and helper functions. */
 double student_nbody(unsigned nbodies, double (*pos)[3], double cut2,
                      double (*forces)[3])
